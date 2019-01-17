@@ -171,8 +171,13 @@ img {
 .main-header {
   display: flex;
   justify-content: space-between;
-  margin: 30px 0;
+  margin: 30px 0 0 0;
   border-bottom-width: 100%;
+  width: 100%;
+  border-bottom: 2px dashed silver;
+  padding-bottom: 20px;
+  padding-right: 75px;
+  padding-left: 60px;
 }
 .main-header ul {
   display: inline-flex;
@@ -185,12 +190,6 @@ img {
 }
 .main-header ul li a {
   text-decoration: none;
-}
-@media (max-width: 500px) {
-  .main-header {
-    width: 100%;
-    background: blue;
-  }
 }
 .footer {
   width: 100%;
